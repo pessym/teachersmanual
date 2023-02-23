@@ -1,0 +1,117 @@
+.headbul, ul{
+   list-style: none;  
+}
+.headli{
+    display: inline-flex;
+    width:120px;
+    padding:6px;
+    padding-top: 0px;
+}
+.headbul .headli .nav-link, ul li a{
+    text-decoration: NONE;
+    color: white;
+    padding-bottom: 15px;
+}
+.headrow{
+    background-color: #b1c6ee;
+    display:inline-block;
+    width:100%;
+    height: 100px;
+    margin-bottom:0px;
+    position:fixed;
+    
+}
+.headbul .headli .active:hover{
+    background-color: rgb(196, 60, 105);
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 20px;
+    transition: 1s;
+}
+
+.sidebardiv{
+    position:fixed;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width:350px;
+    background-color: #ec7a9d;
+    transition:1s;
+    height:100%;
+}
+.sidebar{
+    padding:0px;
+}
+.sidebardiv ul{
+    width: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+    
+}
+.sidebardiv ul li {
+    padding-top:20px;
+    text-align: left;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding-left:50px;
+  
+
+}
+.sidebardiv ul li a{
+    padding-bottom: 20px;
+    text-align: center;
+    color:goldenrod;
+}
+.sidebardiv .active:hover{
+    background-color: #e696ae;
+    text-align: center;
+    padding-top:20px;
+    text-align: left;
+    font-size: 1.5em;
+    padding-right: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    display: block;
+    position: relative;
+}
+.sidebardiv ul li div{
+    display:none;
+}
+.sidebardiv ul li:hover div{
+    display: inline-block;
+    position: relative;
+    background-color: #e696ae;
+    padding-left:15px;
+    padding-right:10px;
+    border-radius: 20px;
+
+}
+.sidebardiv ul li:hover div a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+
+}
+.sidebardiv ul li div a:hover{
+    background-color: #df9af0;
+    text-align: center;
+    padding-top:20px;
+    text-align: left;
+    font-size: 15px;
+    padding-right: 2px;
+    margin:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color:white;
+}
+.sidebardiv ul li a{
+    color:rgb(71, 65, 71);
+}
+
