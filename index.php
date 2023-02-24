@@ -26,7 +26,13 @@
 
   <body>
 
+<style>
+  .headerdiv{
+    padding-right:50px;
+    padding-left:70px;
 
+  }
+</style>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-stick-dark" data-navbar="sticky">
       <div class="container">
@@ -48,7 +54,7 @@
 
     <!-- Header -->
     <header class="header" style="background-image: linear-gradient(135deg, #f9f7ff 0%, #fff 50%, #f6f3ff 100%);">
-      <div class="container">
+      <div class="container headerdiv">
             <div class="row">
                 <div class="col-lg-6">
                     <h1>Smartshule Teacher's Portal Manual</h1>
@@ -62,7 +68,7 @@
                 </div>
 
                 <div class="col-lg-6 ml-auto d-none d-lg-block">
-                    <img src="manual_images/indexpages/hey.jpg" alt="img">
+                    <img src="manual_images/indexpages/index1.jpg" alt="img" height="100px">
                 </div>
             </div>
         </div>
@@ -238,7 +244,7 @@
           <div class="row gap-y">
 
             <div class="col-md-6 col-lg-3">
-              <a class="card card-body border hover-shadow-6 text-center py-6" href="https://www.facebook.com/smartshule/">
+              <a class="card card-body border hover-shadow-6 text-center py-6" href="https://www.facebook.com/smartshule/" target="_blank">
                 <p><i class="fa fa-users lead-7 text-primary"></i></p>
                 <h6 class="mb-0 mt-3">Facebook</h6>
               </a>
@@ -254,7 +260,7 @@
 
 
             <div class="col-md-6 col-lg-3">
-              <a class="card card-body border hover-shadow-6 text-center py-6" href="https://twitter.com/smartshule">
+              <a class="card card-body border hover-shadow-6 text-center py-6" href="https://twitter.com/smartshule" target="_blank">
                 <p><i class="fa fa-twitter lead-7 text-primary"></i></p>
                 <h6 class="mb-0 mt-3">Twitter Support</h6>
               </a>
@@ -290,7 +296,7 @@
           </div>
 
           <div class="col-md-3 text-center text-md-right">
-            <a href="https://smartshule.com/">©Smartshule</a>
+            <a href="https://smartshule.com/">©Smartshule. All Rights Reserved.</a>
           </div>
         </div>
       </div>

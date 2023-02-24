@@ -1,13 +1,37 @@
 <style>
-    ul li:hover {
+    ul li:hover{
         background-color:darkslateblue;
         color:antiquewhite;
         border-radius: 10px;
         color:white;
         display:block;
+        padding:8px;
+
     }
-     ul li:active {
+    .cool{
         background-color:darkslateblue;
+        color:antiquewhite;
+        border-radius: 10px;
+        color:white;
+        display:block;
+        padding:8px;
+
+
+    }
+    .dropdown, .dropdown span , .dropdown a {
+        background-color:darkslateblue;
+        color:antiquewhite;
+        border-radius: 10px;
+        color:white;
+        display:block;
+        padding:8px;
+    }
+
+    ul 
+     .current, .current span, .current i, .current li div a {
+        background-color:#F06292;
+        padding:8px;
+        padding-right:5px;
         color:antiquewhite;
         border-radius: 10px;
         color:white;
@@ -33,6 +57,15 @@
     }
 
 </style>
+<?php
+    $text = $_SERVER['REQUEST_URI'];
+
+    $first = explode('/', $text);
+
+    $last = end($first);
+    $second = explode('.', $last);
+    $to_match = $second[0];
+?>
 
 <div class="col-md-4 col-xl-3 order-last order-md-first sidebar">
    
@@ -42,54 +75,56 @@
               <ul class="nav nav-sidebar nav-sidebar-hero" data-accordion="true" style="height:150vh;">
         
                 <li class="nav-item">
-                  <a class="nav-link active" href="../docs/extraeclassroom.php" ><span> Introduction</span><i class="fa fa-users"></i> </a>
+                  <a class="nav-link active <?php if (preg_match('/^(extraeclassroom)$/i', $to_match )) echo "current"; ?>" href="../docs/extraeclassroom.php" ><span> Introduction</span><i class="fa fa-users"></i> </a>
                   
                 </li>
 	
-				<li class="nav-item">
-                    <a class="nav-link active" href="#"> <span> Student Diary </span> <i class="nav-angle"></i></a>
-                    <div class="nav">
-                        <a class="nav-link" href="../docs/studentdiaryacademics.php">Student Diary(Academics)</a>
-                        <a class="nav-link" href="../docs/studentdiaryextra.php">Student Diary(Extra)</a>
+				<li class="nav-item navclass <?php if (preg_match('/^(studentdiaryextra)$/i',$to_match ) || preg_match('/^(studentdiaryacademics)$/i',$to_match )) echo 'dropdown'; ?>" >
+                    <a class="nav-link active <?php if (preg_match('/^(studentdiaryextra)$/i',$to_match ) || preg_match('/^(studentdiaryacademics)$/i',$to_match )) echo "dropdown"; ?>" href="#"> <span> Student Diary </span> <i class="nav-angle"></i></a>
+                    <div class="nav" <?php if (preg_match('/^(studentdiaryextra)$/i',$to_match ) || preg_match('/^(studentdiaryacademics)$/i',$to_match )) echo 'style="display:block"'; ?>>
+                        <a class="nav-link <?php if (preg_match('/^(studentdiaryacademics)$/i', $to_match )) echo "current"; ?>" href="../docs/studentdiaryacademics.php">Student Diary(Academics)</a>
+                        <a class="nav-link <?php if (preg_match('/^(studentdiaryextra)$/i', $to_match )) echo "current"; ?>" href="../docs/studentdiaryextra.php">Student Diary(Extra)</a>
             
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#"> <span>Exam Management </span><i class=""></i> <i class="nav-angle"></i></a>
-                    <div class="nav">
-                        <a class="nav-link" href="../docs/exammanagement.php"><span> Exam Management(8.4.4/IGCSE) </span></a>
-                        <a class="nav-link" href="../docs/cbcassessment.php"><span>CBC Assessments  </span> </a>
+                <li class="nav-item navclass <?php if (preg_match('/^(exammanagement)$/i',$to_match ) || preg_match('/^(cbcassessment)$/i',$to_match )) echo 'dropdown'; ?>" >
+                    <a class="nav-link active <?php if (preg_match('/^(exammanagement)$/i',$to_match ) || preg_match('/^(cbcassessment)$/i',$to_match )) echo "dropdown"; ?>" href="#"> <span> Exam Management </span> <i class="nav-angle"></i></a>
+                    <div class="nav" <?php if (preg_match('/^(exammanagement)$/i',$to_match ) || preg_match('/^(cbcassessment)$/i',$to_match )) echo 'style="display:block"'; ?>>
+                        <a class="nav-link <?php if (preg_match('/^(exammanagement)$/i', $to_match )) echo "current"; ?>" href="../docs/exammanagement.php">Exam Management(8.4.4/IGCSE)</a>
+                        <a class="nav-link <?php if (preg_match('/^(cbcassessment)$/i', $to_match )) echo "current"; ?>" href="../docs/cbcassessment.php">CBC Assessment</a>
             
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#"><span>Quizzes </span> <i class=""></i> <i class="nav-angle"></i></a>
-                    <div class="nav">
-                        <a class="nav-link" href="../docs/q&a.php">Q&A Quizzes</a>
-                        <a class="nav-link" href="../docs/multiplechoices.php">Multiple Choices Quizzes</a>
-                        <a class="nav-link" href="../docs/pastpapers.php">Past Papers</a>
+                <li class="nav-item navclass <?php if (preg_match('/^(q&a)$/i',$to_match ) || preg_match('/^(multiplechoice)$/i',$to_match )|| preg_match('/^(pastpapers)$/i',$to_match ) ) echo 'dropdown'; ?>" >
+                    <a class="nav-link active <?php if (preg_match('/^(q&a)$/i',$to_match ) || preg_match('/^(pastpapers)$/i',$to_match )|| preg_match('/^(pastpapers)$/i',$to_match ) ) echo 'dropdown'; ?>" href="#"> <span> Quizzes</span> <i class="nav-angle"></i></a>
+
+                    <div class="nav" <?php if (preg_match('/^(q&a)$/i',$to_match ) || preg_match('/^(multiplechoice)$/i',$to_match )|| preg_match('/^(pastpapers)$/i',$to_match ) ) echo 'dropdown'; ?>>
+                        <a class="nav-link <?php if (preg_match('/^(q&a)$/i', $to_match )) echo "current"; ?>" href="../docs/q&a.php">Q&A Quizzes</a>
+                        <a class="nav-link <?php if (preg_match('/^(multiplechoices)$/i', $to_match )) echo "current"; ?>" href="../docs/multiplechoices.php">Multiple Choices Quizzes</a>
+                        <a class="nav-link <?php if (preg_match('/^(pastpapers)$/i', $to_match )) echo "current"; ?>" href="../docs/pastpapers.php">Past Papers</a>
+            
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#"> <span>E-materials</span>  <i class=""></i> <i class="nav-angle"></i></a>
-                    <div class="nav">
-                        <a class="nav-link" href="../docs/enotesebooks.php">E-notes</a>
-                        <a class="nav-link" href="../docs/evideos.php">E-videos</a>
+                <li class="nav-item navclass <?php if (preg_match('/^(enotesebooks)$/i',$to_match ) || preg_match('/^(evideos)$/i',$to_match ) ) echo 'dropdown'; ?>" >
+                    <a class="nav-link active <?php if (preg_match('/^(enotesebooks)$/i',$to_match ) || preg_match('/^(evideos)$/i',$to_match )) echo 'dropdown'; ?>" href="#"> <span>E-Materials</span> <i class="nav-angle"></i></a>
+
+                    <div class="nav" <?php if (preg_match('/^(enotesebooks)$/i',$to_match ) || preg_match('/^(evideos)$/i',$to_match ) ) echo 'dropdown'; ?>>
+                        <a class="nav-link <?php if (preg_match('/^(enotesebooks)$/i',$to_match )) echo "current"; ?>" href="../docs/enotesebooks.php">E-notes</a>
+                        <a class="nav-link <?php if (preg_match('/^(evideos)$/i', $to_match )) echo "current"; ?>" href="../docs/evideos.php">E-Videos</a>            
                     </div>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link active" href="#"><span> Teachers Materials</span> <i class=""></i><i class="nav-angle"></i></a>
-                    <div class="nav">
-                        <a class="nav-link" href="../docs/lessonplan.php">Lesson Plans</a>
-                        <a class="nav-link" href="../docs/lessonmaterials.php">Lesson Materials</a>
-                        <a class="nav-link" href="../docs/recordofwork.php">Record of Work Covered</a>
-                        <a class="nav-link" href="../docs/schemesofwork.php">Schemes of Work</a>
-
+                <li class="nav-item navclass <?php if (preg_match('/^(lessonplan)$/i',$to_match ) || preg_match('/^(lessonmaterials)$/i',$to_match )|| preg_match('/^(schemesofwork)$/i',$to_match ) || preg_match('/^(recordofwork)$/i',$to_match )) echo 'dropdown'; ?>" >
+                    <a class="nav-link active <?php if (preg_match('/^(lessonplan)$/i',$to_match ) || preg_match('/^(lessonmaterials)$/i',$to_match )|| preg_match('/^(schemesofwork)$/i',$to_match ) || preg_match('/^(recordofwork)$/i',$to_match )) echo 'dropdown'; ?>" href="#"> <span>Teacher Materials</span> <i class="nav-angle"></i></a>
+                    <div class="nav" <?php if (preg_match('/^(lessonplan)$/i',$to_match ) || preg_match('/^(lessonmaterials)$/i',$to_match )|| preg_match('/^(schemesofwork)$/i',$to_match ) || preg_match('/^(recordofwork)$/i',$to_match )) echo 'dropdown'; ?>>
+                        <a class="nav-link <?php if (preg_match('/^(lessonplan)$/i', $to_match )) echo "current"; ?>" href="../docs/lessonplan.php">Lesson Plan</a>
+                        <a class="nav-link <?php if (preg_match('/^(lessonmaterials)$/i', $to_match )) echo "current"; ?>" href="../docs/lessonmaterials.php">Lesson Materials</a>
+                        <a class="nav-link <?php if (preg_match('/^(schemesofwork)$/i', $to_match )) echo "current"; ?>" href="../docs/schemesofwork.php">Schemes of Work</a>
+                        <a class="nav-link <?php if (preg_match('/^(recordofwork)$/i', $to_match )) echo "current"; ?>" href="../docs/recordofwork.php">Record of Work</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="../docs/studentproject.php"><span> Student Project</span> <i class="fa fa-paperclip"></i> </a>
+                <a class="nav-link active <?php if (preg_match('/^(studentproject)$/i', $to_match )) echo "current"; ?>" href="../docs/studentproject.php" ><span> Student Project</span><i class="fa fa-laptop"></i> </a>
                 </li>
               </ul>
             </aside>
