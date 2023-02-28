@@ -30,12 +30,14 @@
     ul 
      .current, .current span, .current i, .current li div a {
         background-color:#F06292;
+        height:50px;
         padding:8px;
         padding-right:5px;
         color:antiquewhite;
         border-radius: 10px;
         color:white;
         display:block;
+        
     }
     .current span, .current i{
         height:50px;

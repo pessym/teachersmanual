@@ -7,7 +7,7 @@
             <img class="logo-light" src="../assets/img/Smartshulelogo-removebg-preview.png" alt="logo">
           </a>
         </div>
-        <a class="btn btn-sm btn-round btn-primary offset-7" href="../index.php">Dashboard</a>
+        <a class="btn btn-sm btn-round btn-primary offset-6 " href="../layout/dashboard.php">Dashboard</a>
 
         <a class="btn btn-sm btn-round btn-success" href="../index.php">Homepage</a>
 

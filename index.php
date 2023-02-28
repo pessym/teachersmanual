@@ -45,7 +45,7 @@
           </a>
         </div>
 
-        <a class="btn btn-sm btn-round btn-success" href="http://localhost/teachersportal/layout/dashboard.php">View Dashboard</a>
+        <a class="btn btn-sm btn-round btn-success" href="layout/dashboard.php">View Dashboard</a>
 
       </div>
     </nav>
@@ -61,7 +61,7 @@
                     <p class="lead mt-5 mb-8">
                       This manual has been created to guide the teachers as they surf through the various parts of their Smartshule portal.
                       This manual easens and enables the educators to know how to create, publish, edit and view data needed by the school to run day to day activities 
-                      and for decision making. The manual clearly otlines the different steps and procedures that guides the teachers in a clear, simple and precise way.
+                      and for decision making. The manual clearly outlines the different steps and procedures that guides the teachers in a clear, simple and precise way.
                        
                     </p>
                     <p><a class="btn btn-lg btn-round btn-primary" href="layout/dashboard.php">Get Started</a></p>

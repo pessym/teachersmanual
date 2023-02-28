@@ -104,7 +104,7 @@
                 <p class="lead">
                   To view responses of conversations between the teacher and a parent,
                   <ul class="lead" style="list-style:alpha;">
-                    <li>click on the<strong>View Responses</strong> button adjacent to the specific parent.</li>
+                    <li>Click on the<strong style="color:lightseagreen;"> View Responses</strong> button adjacent to the specific parent.</li>
                     <li>To add new message after a respond, click on the <b>Reply</b> text box.</li>
                     <li>Click <b class="text-primary">Send</b> button to send another message.</li>
                     <li>Click <b class="text-success">Back</b> button to return to the previous page.</li>
@@ -128,26 +128,11 @@
   <!-- /.main-content -->
 
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row gap-y align-items-center">
+  
+    <!-- Footer -->
+    <?php include '../inc/footer.php'?>
 
-        <div class="col-md-9">
-          <div class="nav justify-content-center justify-content-md-start">
-            <a class="nav-link" href="http://hr-guide.co.ke/">Home</a>
-            <a class="nav-link" href="#">Call us</a>
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Contact</a>
-          </div>
-        </div>
-
-        <div class="col-md-3 text-center text-md-right">
-          <a href="http://thetheme.io/">© Keypad Systems</a>
-        </div>
-      </div>
-    </div>
-  </footer><!-- /.footer -->
+    <!-- /.footer -->
 
 
   <!-- Scripts -->

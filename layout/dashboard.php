@@ -65,8 +65,17 @@
             <h2>Log in and Requirements</h2>
             <p class="lead">
               <strong>Requirements</strong><br>
-              For one  to login he or she must have <strong> a device </strong>that can be connected to the internet i.e a smartphone or a laptop,
-              <strong> the link</strong> to the system (the specific smartshule link for the selected school) and the <strong>login credentials </strong> which will be provided by the admin.
+              For one  to login, he or she must have:
+              <ul>
+                <li>
+                  <strong class="text-primary"> A device </strong>that can be connected to the internet i.e a smartphone or a laptop.
+                </li>
+                <li>
+                 <strong class="text-primary"> The link</strong> to the system (the specific smartshule link for the selected school) and the
+                </li>
+                <li><strong class="text-primary">Login credentials </strong> which will be provided by the admin.</li>
+              </ul> 
+             
 
             </p>
             <hr>
@@ -86,9 +95,9 @@
                 <li>The navigation bar on top contains several modules like <b>My students, Roll call, E_classroom, Messages and Self appraisal. </b> </li>
                 <li>The left side of the page displays information about the Teacher i.e
                   <ul>
-                    <li>To view a Teacher profile, click <b>View Profile</b> button.</li>
-                    <li>To view subjects assigned to the teacher, click <b>Subject Assigned</b> button.</li>
-                    <li>To join a zoom meeting scheduled and hosted by the admin, click <b>Zoom Meeting</b> button.</li>
+                    <li>To view a Teacher profile, click <b style="color:brown;">View Profile</b> button.</li>
+                    <li>To view subjects assigned to the teacher, click <b class="text-success">Subject Assigned</b> button.</li>
+                    <li>To join a zoom meeting scheduled and hosted by the admin, click <b class="text-primary">Zoom Meeting</b> button.</li>
                   </ul>
               </ul>
             </p>
@@ -106,26 +115,12 @@
     </main><!-- /.main-content -->
 
 
+
+    
     <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="row gap-y align-items-center">
+    <?php include '../inc/footer.php'?>
 
-          <div class="col-md-9" >
-            <div class="nav justify-content-center justify-content-md-start  SOCIALS" style="padding:0px;">
-              <a class="nav-link" href="../page/changelog-1.html"><i class="fa fa-twitter lead-3 text-primary"></i>Twitter</a>
-              <a class="nav-link" href="../index.html" ><i class="fa fa-phone lead-3 text-success"></i>Call us</a>
-              <a class="nav-link" href="kb-introduction.html"><i class="fa fa-facebook lead-3 text-primary"></i>Facebook</a>
-              <a class="nav-link" href="../page/changelog-1.html"><i class="fa fa-envelope lead-3 text-danger"></i>Email</a>
-            </div>
-          </div>
-
-          <div class="col-md-3 text-center text-md-right">
-            <a href="https://smartshule.com/">©Smartshule</a>
-          </div>
-        </div>
-      </div>
-    </footer><!-- /.footer -->
+    <!-- /.footer -->
 
 
     <!-- Scripts -->

@@ -54,7 +54,7 @@
           <article>
                 <h2>Self Appraisal Tab</h2>
                 <p class="lead">
-                  Upon clicking the selfappraisal tab, a teacher  logged in can begin the evaluation process depending on the list of targets
+                  Upon clicking the selfappraisal tab, a teacher  logged in can begin the self evaluation process depending on the list of targets
                   the admin had set on their portal.
                 </p>
                 <hr>
@@ -73,27 +73,11 @@
   <!-- /.main-content -->
 
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row gap-y align-items-center">
+ 
+    <!-- Footer -->
+    <?php include '../inc/footer.php'?>
 
-        <div class="col-md-9">
-          <div class="nav justify-content-center justify-content-md-start">
-            <a class="nav-link" href="http://hr-guide.co.ke/">Home</a>
-            <a class="nav-link" href="#">Talk to one of us</a>
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Contact</a>
-          </div>
-        </div>
-
-        <div class="col-md-3 text-center text-md-right">
-          <a href="http://thetheme.io/">© Keypad Systems</a>
-        </div>
-      </div>
-    </div>
-  </footer><!-- /.footer -->
-
+    <!-- /.footer -->
 
   <!-- Scripts -->
   <script src="../assets/js/page.min.js"></script>

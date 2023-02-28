@@ -58,7 +58,9 @@
             <h2>Roll Call</h2>
             <p class="lead">
             A teacher assigned as the <b>class teacher or subject teacher</b> can take roll call during class time(lesson time) or even in remedial times.
-            When you click on the roll call tab you can either <b class="text-primary">+Add New</b> add new or <b CLASS="text-warning">View</b> .
+            On clicking the <b style="color:palevioletred;">Roll Call</b> tab, a list of classes a teacher has been assigned will be display. <br>
+            A teacher can either add new roll call by clicking <b class="text-primary">+Add New</b> button adjacent to the class whose roll call is to taken
+            or view roll call that was already added by clicking on the<b CLASS="text-warning"> View</b> button.
             </p>
 
             <hr>
@@ -83,8 +85,8 @@
             <p class="lead">
               To add new roll call:
               <ul style="list-style:square;">
-                <li>Click on <b class="text-primary">Add New </b> button adjacent to the class whose roll call is to added.</li>
-                A form will be displayed as shown below.
+                <li>Click on <b class="text-primary">+ Add New </b> button adjacent to the class whose roll call is to added.</li>
+                A form will be displayed as shown.
                 <li>Select the <b>date and the attendance for the period of time.</b></li>
                 <strong>If all students are present you can click on the checkbox besides the word present. If a student is absent, check the student name 
                 and click on checkbox under absent.</strong>
@@ -109,7 +111,7 @@
                           <ul style="list-style:circle">
                             <li>Click on <b class="text-warning"> View</b> Button adjacent to the class selected.</li>
                             <li>Click on the <b class="text-success">View Register</b> button to view a previously added roll call.</li>
-                            <li>To edit a register, click on the <b style="color:blueviolet;">Edit</b> button adjacent to the register </li>
+                            <li>To edit a register, click on the <b style="color:blueviolet;">Edit</b> button adjacent to the register. </li>
                           </ul>
                         </p>
                       </article>
@@ -129,8 +131,11 @@
   <!-- /.main-content -->
 
 
-  <!-- Footer -->
- <!-- /.footer -->
+ 
+    <!-- Footer -->
+    <?php include '../inc/footer.php'?>
+
+    <!-- /.footer -->
 
 
   <!-- Scripts -->
