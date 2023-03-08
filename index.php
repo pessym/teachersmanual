@@ -14,7 +14,7 @@
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" href="assets/img/favicon.png">
+    <link rel="icon" href="assets/img/amold.ico"> 
 
     <!--  Open Graph Tags -->
     <meta property="og:title" content="TheDocs — Online Documentation Template">
@@ -40,7 +40,7 @@
         <div class="navbar-left">
           <button class="navbar-toggler" type="button">&#9776;</button>
           <a class="navbar-brand" href="index-2.html">
-            <img class="logo-dark" src="assets/img/Smartshulelogo.jpeg" alt="logo">
+            <img class="logo-dark" src="assets/img/Smartshulelogo - Copy.jpeg" alt="logo">
             <!-- <img class="logo-light" src="assets/img/logo-light.png" alt="logo"> -->
           </a>
         </div>

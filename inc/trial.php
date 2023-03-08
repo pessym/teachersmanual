@@ -1,4 +1,32 @@
-<style>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>SmartShule Teachers Portal Manual</title>
+
+    <!-- Styles -->
+    <link href="../assets/css/page.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" href="../assets/img/amold.ico"> 
+
+    <!--  Open Graph Tags -->
+    <meta property="og:title" content="TheDocs — Online Documentation Template">
+    <meta property="og:description" content="A powerful, responsive, and high-performance html online documentation template which can help you rapidly develop your next software’s documentation.">
+    <meta property="og:image" content="assets/img/og-img.jpg">
+    <meta property="og:url" content="index.html">
+    <meta name="twitter:card" content="summary_large_image">
+  </head>
+
+  <body>
+
+  <style>
    ul li div{
     height:100%;
     padding:0px;
@@ -8,7 +36,7 @@
         height:50px;
         padding-top: 0px;
     }
-    ul li:hover{
+    .nav-sidebar-hero li:hover{
         background-color:darkslateblue;
         color:antiquewhite;
         border-radius: 10px;
@@ -30,15 +58,14 @@
     ul 
      .current, .current span, .current i, .current li div a {
         background-color:#F06292;
-        height:50px;
         padding:8px;
         padding-right:5px;
         color:antiquewhite;
         border-radius: 10px;
         color:white;
         display:block;
-        
     }
+
     .current span, .current i{
         height:50px;
         padding-left:10px;
@@ -74,12 +101,12 @@
     $to_match = $second[0];
 ?>
 
-<div class="col-md-4 col-xl-3 order-last order-md-first sidebar">
+<div class="col-md-4 col-xl-3 order-last order-md-first sidebar" >
    
             <hr class="d-md-none">
-            <aside class="sidebar sidebar-sticky sidebar-stick-shadow pr-md-5 br-1" style="height:250vh;padding:0px;">
+            <aside class="sidebar sidebar-sticky sidebar-stick-shadow pr-md-5 br-1" style="height:100vh;padding:0px;">
                 <h3 style="color:darkslateblue;"><b> Sub Modules</b></h3>
-              <ul class="nav nav-sidebar nav-sidebar-hero" data-accordion="true" style="height:150vh;">
+              <ul class="nav nav-sidebar nav-sidebar-hero" data-accordion="true" style="height:100vh;">
         
                 <li class="nav-item">
                   <a class="nav-link active <?php if (preg_match('/^(extraeclassroom)$/i', $to_match )) echo "current"; ?>" href="../docs/extraeclassroom.php" ><span> Introduction</span><i class="fa fa-users"></i> </a>
@@ -143,3 +170,7 @@
                     background-color:pale pink;
                 } 
          </style>
+
+  </body>
+
+</html>

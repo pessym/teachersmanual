@@ -1,4 +1,8 @@
 <style>
+   .li span, .li i{
+    height:10px;
+   }
+   
    ul li div{
     height:100%;
     padding:0px;
@@ -8,7 +12,10 @@
         height:50px;
         padding-top: 0px;
     }
-    ul li:hover{
+    a .nav-link .active .current{
+        padding:0px;
+    }
+    .nav-sidebar-hero li:hover{
         background-color:darkslateblue;
         color:antiquewhite;
         border-radius: 10px;
@@ -30,7 +37,7 @@
     ul 
      .current, .current span, .current i, .current li div a {
         background-color:#F06292;
-        padding:8px;
+        padding:0px;
         padding-right:5px;
         color:antiquewhite;
         border-radius: 10px;
@@ -75,18 +82,18 @@
 <div class="col-md-4 col-xl-3 order-last order-md-first sidebar">
    
             <hr class="d-md-none">
-            <aside class="sidebar sidebar-sticky sidebar-stick-shadow pr-md-5 br-1" style="height:250vh;padding:0px;">
+            <aside class="sidebar sidebar-sticky sidebar-stick-shadow pr-md-5 br-1" style="height:100vh;padding:0px;">
                 <h3 style="color:darkslateblue;"><b> Sub Modules</b></h3>
-              <ul class="nav nav-sidebar nav-sidebar-hero" data-accordion="true" style="height:150vh;">
+              <ul class="nav nav-sidebar nav-sidebar-hero" data-accordion="true" style="height:100vh;">
         
-                <li class="nav-item">
+                <li class="nav-item li">
                   <a class="nav-link active <?php if (preg_match('/^(extraeclassroom)$/i', $to_match )) echo "current"; ?>" href="../docs/extraeclassroom.php" ><span> Introduction</span><i class="fa fa-users"></i> </a>
                   
                 </li>
 	
-				<li class="nav-item navclass <?php if (preg_match('/^(studentdiaryextra)$/i',$to_match ) || preg_match('/^(studentdiaryacademics)$/i',$to_match )) echo 'dropdown'; ?>" >
+				<li class="nav-item navclass  <?php if (preg_match('/^(studentdiaryextra)$/i',$to_match ) || preg_match('/^(studentdiaryacademics)$/i',$to_match )) echo 'dropdown'; ?>" >
                     <a class="nav-link active <?php if (preg_match('/^(studentdiaryextra)$/i',$to_match ) || preg_match('/^(studentdiaryacademics)$/i',$to_match )) echo "dropdown"; ?>" href="#"> <span> Student Diary </span> <i class="nav-angle"></i></a>
-                    <div class="nav" <?php if (preg_match('/^(studentdiaryextra)$/i',$to_match ) || preg_match('/^(studentdiaryacademics)$/i',$to_match )) echo 'style="display:block"'; ?>>
+                    <div class="nav li" <?php if (preg_match('/^(studentdiaryextra)$/i',$to_match ) || preg_match('/^(studentdiaryacademics)$/i',$to_match )) echo 'style="display:block"'; ?>>
                         <a class="nav-link <?php if (preg_match('/^(studentdiaryacademics)$/i', $to_match )) echo "current"; ?>" href="../docs/studentdiaryacademics.php">Student Diary(Academics)</a>
                         <a class="nav-link <?php if (preg_match('/^(studentdiaryextra)$/i', $to_match )) echo "current"; ?>" href="../docs/studentdiaryextra.php">Student Diary(Extra)</a>
             

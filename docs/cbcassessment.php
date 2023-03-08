@@ -71,11 +71,11 @@
                   <p class="lead">
                     To add and save the Formative Assessment: 
                     <ul>
-                      <li>Click on the <b>Formative </b>button.</li>
+                      <li>Click on the <b class="text-primary">Formative </b>button.</li>
                       <li>Select the <b>Student, Term, Year, Learning Area, Strand and Sub-strand.</b></li>
                       <li>Grade the student by clicking on the checkbox adjacent to the selected strand.</li>
                       <li>A teacher can add comments by clicking on the dotted lines in the Teachers Comment section and clicking save</li>
-                      <li>Click the <b>Save Assessement</b> button to save the changes.</li>
+                      <li>Click the <b class="text-primary">Save Assessement</b> button to save the changes.</li>
                     </ul> 
                   </p>
                 </article>
@@ -102,10 +102,10 @@
                   <p class="lead">
                     To add and save the Summative Assessment: 
                     <ul>
-                      <li>Click on the <b>Summative</b>button.</li>
+                      <li>Click on the <b class="text-primary">Summative</b>button.</li>
                       <li>Select the <b>Student, Term, Year and Exam</b></li>
                       <li>Grade the student by clicking on the checkbox adjacent to the selected Learning Area.</li>
-                      <li>Click the <B>Save Assessment</B> button to save the changes done.</li>
+                      <li>Click the <B class="text-primary">Save Assessment</B> button to save the changes done.</li>
                     </ul> 
                   </p>
                 </article>
@@ -119,8 +119,8 @@
                   <p class="lead">
                     To add and save the Social Behavior Assessment: 
                     <ul>
-                      <li>Click on the <b>Social Behaviour</b>button.</li>
-                      <li>Click on the <b>Create/Edit Report</b> button at the top-left of the screen.</li>
+                      <li>Click on the <b class="text-success">Social Behaviour </b>button.</li>
+                      <li>Click on the <b class="text-danger">Create/Edit Report</b> button at the top-left of the screen.</li>
                       <li>Select the <b>Student, Term, and Year</b></li>
                       <li>Grade the students in the class by clicking on the empty field adjacent to the selected Behaviour Assessement in the grade column.</li>
                       <li>Click the save button to save the changes done.</li>
@@ -135,7 +135,33 @@
                 </div>
                 <hr>
           </div>
-
+          <div class="row justify-content-around m-4 mb-6">
+          <div class="col-md-7 img">
+                <div class="code-preview">
+                  <img src="../manual_images/img/otherimages/printoptions.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+                <hr>
+                <div class="code-preview">
+                  <img src="../manual_images/img/otherimages/print.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+          </div>
+            <div class="col-md-5 content">
+              <article>
+                  <h3>Print Report</h3>
+                  <p class="lead">
+                    To view, download and print the assessments: 
+                    <ul>
+                      <li>Click on the <b style="color:#6ddda0;">Print Options  </b>button.</li>
+                      <li>Select the <b>Class, Term, Year, Learning Area and the Rating Option.</b></li>
+                      <li>Click the <b style="color:#6ddda0;">Submit</b> button to view students assessed in the class selected.</li>
+                      <strong>A list of students report will be displayed as per the selected class.</strong>
+                      <li>On clicking the Sumbit button, a Print Button will appear net to the submit button.</li>
+                      <li>To print the assessement, click <b class="text-primary">Print</b> button and select destination. <b>Save as pdf will download the reports in the pdf format.</b></li>
+                    </ul> 
+                  </p>
+                </article>
+            </div>
+            
         </div>
       </div>
     </main><!-- /.main-content -->
