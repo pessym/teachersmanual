@@ -14,6 +14,7 @@
     }
     a .nav-link .active .current{
         padding:0px;
+        height:50px;
     }
     .nav-sidebar-hero li:hover{
         background-color:darkslateblue;
@@ -67,6 +68,10 @@
     .nav-sidebar-hero .nav-item:hover .nav-link {
         color: white;   
     }
+    .currently{
+        height:70px;
+        border-radius:10px;
+    }
 
 </style>
 <?php
@@ -86,7 +91,7 @@
                 <h3 style="color:darkslateblue;"><b> Sub Modules</b></h3>
               <ul class="nav nav-sidebar nav-sidebar-hero" data-accordion="true" style="height:100vh;">
         
-                <li class="nav-item li">
+                <li class="nav-item li currently">
                   <a class="nav-link active <?php if (preg_match('/^(extraeclassroom)$/i', $to_match )) echo "current"; ?>" href="../docs/extraeclassroom.php" ><span> Introduction</span><i class="fa fa-users"></i> </a>
                   
                 </li>
@@ -137,7 +142,7 @@
                         <a class="nav-link <?php if (preg_match('/^(recordofwork)$/i', $to_match )) echo "current"; ?>" href="../docs/recordofwork.php">Record of Work</a>
                     </div>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item currently">
                 <a class="nav-link active <?php if (preg_match('/^(studentproject)$/i', $to_match )) echo "current"; ?>" href="../docs/studentproject.php" ><span> Student Project</span><i class="fa fa-laptop"></i> </a>
                 </li>
               </ul>
