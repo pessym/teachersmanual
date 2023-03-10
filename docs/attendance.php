@@ -16,27 +16,35 @@
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
-  <link rel="icon" href="../assets/img/favicon.png">
+  <link rel="icon" href="../assets/img/amold.ico"> 
 </head>
 
 <body>
 
+     <!-- Navbar -->
 
-  <!-- Main Content -->
-  <main class="main-content">
-    <!-- Navbar -->
-    <?php include '../inc/header.php' ?>
+     <?php include '../inc/e-classroomnavbar.php'?>
     <!-- /.navbar -->
+
+
+    
+    <!-- Header -->
+    <?php include '../inc/e-classroomheader.php'?>
+
+    <!-- /.header -->
+
     <div class="container">
       <div class="row">
 
-
-        <!--
+<!--
           |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
           | Sidebar
           |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+          
+         
           !-->
-        <?php include '../inc/sidebar.php' ?>
+
+          <?php include '../inc/e-classroomsidebar.php'?>
 
         <!--
           |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
@@ -70,26 +78,21 @@
   <!-- /.main-content -->
 
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row gap-y align-items-center">
+ 
 
-        <div class="col-md-9">
-          <div class="nav justify-content-center justify-content-md-start">
-            <a class="nav-link" href="http://hr-guide.co.ke/">Home</a>
-            <a class="nav-link" href="#">Talk to one of us</a>
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Contact</a>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row gap-y align-items-center">
+
+          <div class="col-md-3 text-center text-md-right offset-xl-9">
+            <a href="https://smartshule.com/">©Smartshule. All Rights Reserved.</a>
           </div>
         </div>
-
-        <div class="col-md-3 text-center text-md-right">
-          <a href="http://thetheme.io/">© Keypad Systems</a>
-        </div>
       </div>
-    </div>
-  </footer><!-- /.footer -->
+    </footer>
+    <!-- /.footer -->
+
 
 
   <!-- Scripts -->

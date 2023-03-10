@@ -16,7 +16,7 @@
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
-    <link rel="icon" href="../assets/img/favicon.png">
+    <link rel="icon" href="../assets/img/amold.ico"> 
   </head>
 
   <body>
@@ -98,26 +98,19 @@
     </main><!-- /.main-content -->
 
 
+
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
         <div class="row gap-y align-items-center">
 
-          <div class="col-md-9" >
-            <div class="nav justify-content-center justify-content-md-start  SOCIALS" style="padding:0px;">
-              <a class="nav-link" href="../index.html" ><i class="fa fa-phone lead-3 text-success"></i>Call us</a>
-              <a class="nav-link" href="kb-introduction.html"><i class="fa fa-facebook lead-3 text-primary"></i>Facebook</a>
-              <a class="nav-link" href="../page/changelog-1.html"><i class="fa fa-twitter lead-3 text-primary"></i>Twitter</a>
-              <a class="nav-link" href="../page/changelog-1.html"><i class="fa fa-envelope lead-3 text-danger"></i>Email</a>
-            </div>
-          </div>
-
-          <div class="col-md-3 text-center text-md-right">
-            <a href="https://smartshule.com/">©Smartshule</a>
+          <div class="col-md-3 text-center text-md-right offset-xl-9">
+            <a href="https://smartshule.com/">©Smartshule. All Rights Reserved.</a>
           </div>
         </div>
       </div>
-    </footer><!-- /.footer -->
+    </footer>
+    <!-- /.footer -->
 
 
     <!-- Scripts -->

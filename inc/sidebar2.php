@@ -17,19 +17,17 @@
         height:50px;
     }
     .nav-sidebar-hero li:hover{
-        background-color:darkslateblue;
-        color:antiquewhite;
+        background-color:#8A8695;
+        color:greenyellow;
         border-radius: 10px;
-        color:white;
         display:block;
         padding:8px;
 
     }
     .dropdown, .dropdown span , .dropdown a {
-        background-color:darkslateblue;
-        color:antiquewhite;
+        background-color:#8A8695;
+        color:greenyellow;
         border-radius: 10px;
-        color:white;
         display:block;
         padding:8px;
         
@@ -37,13 +35,13 @@
 
     ul 
      .current, .current span, .current i, .current li div a {
-        background-color:#F06292;
         padding:0px;
         padding-right:5px;
-        color:antiquewhite;
+        color:palevioletred;
         border-radius: 10px;
-        color:white;
         display:block;
+        height:60px;
+        font-weight:700;
       
     }
     .current span, .current i, .current li div a{
@@ -66,10 +64,10 @@
     }
     .nav-sidebar .nav-link.active+.nav{
         display:none;
-    } 
+    }
 
     .nav-sidebar-hero .nav-item:hover .nav-link {
-        color: white;   
+        color: greenyellow;   
     }
     .currently{
         height:70px;
@@ -110,7 +108,7 @@
 
                 <li class="nav-item">
                     <a class="nav-link <?php if (preg_match('/^(messages)$/i', $to_match )) echo "current"; ?>" href="../docs/messages.php">Messages<i class="nav-angle"></i></a>
-                </li>
+                    </li>
 
                 <li class="nav-item">
                     <a class="nav-link <?php if (preg_match('/^(selfappraisal)$/i', $to_match )) echo "current"; ?>" href="../docs/selfappraisal.php">Self Appraisal <i class="nav-angle"></i></a>

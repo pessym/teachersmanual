@@ -16,7 +16,7 @@
     <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
 
     <link rel="stylesheet" href="../assets/fonts/fontawesome.min.css">
-    <link rel="icon" href="../assets/img/favicon.png">
+    <link rel="icon" href="../assets/img/amold.ico"> 
   </head>
 
   <body>
