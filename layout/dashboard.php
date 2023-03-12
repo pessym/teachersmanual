@@ -13,13 +13,7 @@
     <link href="../assets/css/style.css" rel="stylesheet">
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
-
-    <link rel="stylesheet" href="../assets/fonts/fontawesome.min.css">
-    <link rel="icon" href="../assets/img/favicon.png">
-  </head>
+    <link rel="icon" href="../assets/img/amold.ico"> 
 
   <body>
 

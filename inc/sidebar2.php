@@ -22,10 +22,13 @@
         padding-top: 0px;
     }
     .nav-sidebar-hero li:hover{
+<<<<<<< HEAD
         background-color:grey;
+=======
+        background-color:#8A8695;
+>>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
         color:greenyellow;
         border-radius: 10px;
-        color:white;
         display:block;
         padding:8px;
     }
@@ -33,8 +36,13 @@
         color:white;
     }
     .dropdown, .dropdown span , .dropdown a {
+<<<<<<< HEAD
         background-color:grey;
         color:white;
+=======
+        background-color:#8A8695;
+        color:greenyellow;
+>>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
         border-radius: 10px;
         display:block;
         padding:8px;
@@ -43,6 +51,7 @@
 
     ul 
      .current, .current span, .current i, .current li div a {
+<<<<<<< HEAD
         background-color:grey;
         padding:10px;
         padding-right:5px;
@@ -50,6 +59,16 @@
         border-radius: 10px;
         font-weight:bolder;
         display:block;
+=======
+        padding:0px;
+        padding-right:5px;
+        color:palevioletred;
+        border-radius: 10px;
+        display:block;
+        height:60px;
+        font-weight:700;
+      
+>>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
     }
     .current span, .current i{
         height:20px;
@@ -69,10 +88,10 @@
     }
     .nav-sidebar .nav-link.active+.nav{
         display:none;
-    } 
+    }
 
     .nav-sidebar-hero .nav-item:hover .nav-link {
-        color: white;   
+        color: greenyellow;   
     }
    
 
@@ -113,8 +132,17 @@
                     <a class="nav-link <?php if (preg_match('/^(messages)$/i', $to_match )) echo "current"; ?>" href="../docs/messages.php">Messages<i class="fa fa-address-book"></i></a>
                 </li>
 
+<<<<<<< HEAD
                 <li class="nav-item <?php if (preg_match('/^(selfappraisal)$/i', $to_match )) echo "current"; ?>">
                     <a class="nav-link <?php if (preg_match('/^(selfappraisal)$/i', $to_match )) echo "current"; ?>" href="../docs/selfappraisal.php">Self Appraisal <i class="fa fa-check"></i></a>
+=======
+                <li class="nav-item">
+                    <a class="nav-link <?php if (preg_match('/^(messages)$/i', $to_match )) echo "current"; ?>" href="../docs/messages.php">Messages<i class="nav-angle"></i></a>
+                    </li>
+
+                <li class="nav-item">
+                    <a class="nav-link <?php if (preg_match('/^(selfappraisal)$/i', $to_match )) echo "current"; ?>" href="../docs/selfappraisal.php">Self Appraisal <i class="nav-angle"></i></a>
+>>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
                 </li>
               </ul>
             </aside>

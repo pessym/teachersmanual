@@ -11,10 +11,25 @@
     <!-- Styles -->
     <link href="../assets/css/page.min.css" rel="stylesheet">
     <link href="../assets/css/style.css" rel="stylesheet">
+<<<<<<< HEAD
     <link rel="stylesheet" href="../assets/fonts/fontawesome.min.css">
 
     <!-- Favicons -->
+<<<<<<<< HEAD:docs/assignment.php
     <link rel="icon" href="../assets/img/amold.ico">
+========
+=======
+
+    <!-- Favicons -->
+>>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
+    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="../assets/fonts/fontawesome.min.css">
+    <link rel="icon" href="../assets/img/amold.ico"> 
+<<<<<<< HEAD
+>>>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647:docs/extraeclassroom.php
+=======
+>>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
   </head>
 
   <body>
@@ -51,8 +66,13 @@
           | Content
           |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
           !-->
+<<<<<<< HEAD
+<<<<<<<< HEAD:docs/assignment.php
           <div class="col-md-2 col-xl-9 ml-md-auto py-1"  style="margin-top:100px">
           
+========
+          <div class="col-md-2 col-xl-9 ml-md-auto py-1"  style="margin-top:60px;">
+>>>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647:docs/extraeclassroom.php
           <article>
 
               <h2>Assignments</h2>
@@ -68,14 +88,45 @@
               </div>
               <hr>
             </article>
+=======
+          <div class="col-md-2 col-xl-9 ml-md-auto py-1"  style="margin-top:60px;">
+          <article>
+
+            <h2>Assignments</h2>
+            <p class="lead">
+               This page allows the teacher to add assignments and even upload related materials. Once the teacher saves the assignments, the parents can be able to access it in their portal.  
+            </p>
+            </p>
+
+            <hr>
+
+            <div class="code-preview">
+              <img src="../manual_images/img/otherimages2/Assignment new.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <hr>
+          </article>
+>>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
         </div>
       </div>
     </main><!-- /.main-content -->
 
 
     <!-- Footer -->
+<<<<<<< HEAD
     <?php include '../inc/footer.php'?>
     <!-- /.footer -->
+=======
+    <footer class="footer">
+      <div class="container">
+        <div class="row gap-y align-items-center">
+
+          <div class="col-md-3 text-center text-md-right offset-xl-9">
+            <a href="https://smartshule.com/">©Smartshule. All Rights Reserved.</a>
+          </div>
+        </div>
+      </div>
+    </footer><!-- /.footer -->
+>>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
 
 
     <!-- Scripts -->

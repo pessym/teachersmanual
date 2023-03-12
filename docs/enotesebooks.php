@@ -15,7 +15,12 @@
     <link href="../assets/css/style.css" rel="stylesheet">
 
     <!-- Favicons -->
+<<<<<<< HEAD
     <link rel="icon" href="../assets/img/amold.ico">
+=======
+    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+    <link rel="icon" href="../assets/img/amold.ico"> 
+>>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
   </head>
 
   <body>
@@ -52,7 +57,7 @@
           | Content
           |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
           !-->
-          <div class="col-md-2 col-xl-9 ml-md-auto py-1"  style="margin-top:100px">
+          <div class="col-md-2 col-xl-9 ml-md-auto py-1"  style="margin-top:40px;height:60vh;">
             <article>
               <h2>E-Notes</h2>
               <p class="lead">
