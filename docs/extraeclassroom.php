@@ -53,7 +53,7 @@
           | Content
           |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
           !-->
-          <div class="col-md-2 col-xl-9 ml-md-auto py-1"  style="margin-top:100px">
+          <div class="col-md-2 col-xl-9 ml-md-auto py-1"  style="margin-top:60px;">
           <article>
             <h2>E-classroom Module</h2>
             <p class="lead">
