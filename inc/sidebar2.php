@@ -2,7 +2,16 @@
    .li span, .li i{
     height:10px;
    }
-   
+   a.nav-link{
+    height:40px;
+    padding-left: 10px;
+   }
+   li.nav-item.li.currently{
+    height:50px;
+   }
+   .nav-link span, .nav-link i{
+    font-size:17px;
+   }
    ul li div{
     height:100%;
     padding:0px;
@@ -12,24 +21,21 @@
         height:50px;
         padding-top: 0px;
     }
-    a .nav-link .active .current{
-        padding:0px;
-        height:50px;
-    }
     .nav-sidebar-hero li:hover{
-        background-color:darkslateblue;
-        color:antiquewhite;
+        background-color:grey;
+        color:greenyellow;
         border-radius: 10px;
         color:white;
         display:block;
         padding:8px;
-
+    }
+     .nav-sidebar-hero li:hover i, li.nav-item.li.currently:hover span {
+        color:white;
     }
     .dropdown, .dropdown span , .dropdown a {
-        background-color:darkslateblue;
-        color:antiquewhite;
-        border-radius: 10px;
+        background-color:grey;
         color:white;
+        border-radius: 10px;
         display:block;
         padding:8px;
         
@@ -37,20 +43,17 @@
 
     ul 
      .current, .current span, .current i, .current li div a {
-        background-color:#F06292;
-        padding:0px;
+        background-color:grey;
+        padding:10px;
         padding-right:5px;
-        color:antiquewhite;
+        color:greenyellow;
         border-radius: 10px;
-        color:white;
+        font-weight:bolder;
         display:block;
-      
     }
-    .current span, .current i, .current li div a{
-        height:50px;
+    .current span, .current i{
+        height:20px;
         padding-left:10px;
-        margin:5px;
-        
     }
 
     .nav-sidebar .nav-item>.nav-link.active {
@@ -71,10 +74,8 @@
     .nav-sidebar-hero .nav-item:hover .nav-link {
         color: white;   
     }
-    .currently{
-        height:70px;
-        border-radius:10px;
-    }
+   
+
 </style>
 
 <?php
@@ -93,27 +94,27 @@
               <ul class="nav nav-sidebar nav-sidebar-hero" data-accordion="true">
 
                 <li class="nav-item <?php if (preg_match('/^(dashboard)$/i', $to_match )) echo "current"; ?>">
-                    <a class="nav-link <?php if (preg_match('/^(dashboard)$/i', $to_match )) echo "current"; ?>" href="../layout/dashboard.php">Home <i class="nav-angle"></i></a>
+                    <a class="nav-link <?php if (preg_match('/^(dashboard)$/i', $to_match )) echo "current"; ?>" href="../layout/dashboard.php">Home <i class="fa fa-home"></i></a>
                 </li>
 	
                 <li class="nav-item <?php if (preg_match('/^(mystudents)$/i', $to_match )) echo "current"; ?>">
-                    <a class="nav-link <?php if (preg_match('/^(mystudents)$/i', $to_match )) echo "current"; ?>" href="../docs/mystudents.php">My Students <i class="nav-angle"></i></a>
+                    <a class="nav-link <?php if (preg_match('/^(mystudents)$/i', $to_match )) echo "current"; ?>" href="../docs/mystudents.php">My Students <i class="fa fa-user"></i></a>
+                </li>
+
+                <li class="nav-item <?php if (preg_match('/^(rollcall)$/i', $to_match )) echo "current"; ?>">
+                    <a class="nav-link <?php if (preg_match('/^(rollcall)$/i', $to_match )) echo "current"; ?>" href="../docs/rollcall.php">Roll Call <i class="fa fa-tag"></i></a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link <?php if (preg_match('/^(rollcall)$/i', $to_match )) echo "current"; ?>" href="../docs/rollcall.php">Roll Call <i class="nav-angle"></i></a>
+                    <a class="nav-link" href="../docs/eclassroom.php">E-classroom <i class="fa fa-arrow-right"></i></a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="../docs/extraeclassroom.php">E-classroom <i class="nav-angle"></i></a>
+                <li class="nav-item  <?php if (preg_match('/^(messages)$/i', $to_match )) echo "current"; ?>">
+                    <a class="nav-link <?php if (preg_match('/^(messages)$/i', $to_match )) echo "current"; ?>" href="../docs/messages.php">Messages<i class="fa fa-address-book"></i></a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link <?php if (preg_match('/^(messages)$/i', $to_match )) echo "current"; ?>" href="../docs/messages.php">Messages<i class="nav-angle"></i></a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link <?php if (preg_match('/^(selfappraisal)$/i', $to_match )) echo "current"; ?>" href="../docs/selfappraisal.php">Self Appraisal <i class="nav-angle"></i></a>
+                <li class="nav-item <?php if (preg_match('/^(selfappraisal)$/i', $to_match )) echo "current"; ?>">
+                    <a class="nav-link <?php if (preg_match('/^(selfappraisal)$/i', $to_match )) echo "current"; ?>" href="../docs/selfappraisal.php">Self Appraisal <i class="fa fa-check"></i></a>
                 </li>
               </ul>
             </aside>

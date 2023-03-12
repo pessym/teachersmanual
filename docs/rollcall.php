@@ -16,8 +16,8 @@
   <link rel="stylesheet" href="../inc/header2.css">
 
   <!-- Favicons -->
-  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
-  <link rel="icon" href="../assets/img/favicon.png">
+  <link rel="icon" href="../assets/img/amold.ico">
+
 </head>
 
 <body>

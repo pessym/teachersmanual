@@ -1,56 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>SmartShule- Keypad Systems</title>
+
+    <!-- Styles -->
+    <link href="../assets/css/page.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome.min.css">
+
+    <!-- Favicons -->
+
+    <link rel="icon" href="../assets/img/amold.ico">
+  </head>
+
+  <body>
 
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-
-  <title>SmartShule Teachers Portal</title>
-
-  <!-- Styles -->
-  <link href="../assets/css/page.min.css" rel="stylesheet">
-  <link href="../assets/css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="../inc/header2.css">
-
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
-  <link rel="icon" href="../assets/img/favicon.png">
-</head>
-
-<body>
-
-
-  <!-- Main Content -->
-  <main class="main-content">
     <!-- Navbar -->
-    <?php include '../inc/header2.php' ?>
+
+    <?php include '../inc/e-classroomnavbar.php'?>
     <!-- /.navbar -->
-    <div class="container">
-      <div class="row">
 
 
-         <!--
+    <!-- Header -->
+    <?php include '../inc/e-classroomheader.php'?>
+
+  <!-- /.header -->
+
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="container">
+        <div class="row">
+
+
+          <!--
           |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
           | Sidebar
           |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
           !-->
-          <?php include '../inc/sidebar2.php' ?>
+          <?php include '../inc/e-classroomsidebar.php'?>
 
-
-        <!--
+          
+          <!--
           |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
           | Content
           |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
           !-->
-        <div class="col-md-2 col-xl-9 ml-md-auto py-1"  style="margin-top:100px">
+          <div class="col-md-2 col-xl-9 ml-md-auto py-1"  style="margin-top:100px">
           <article>
             <h2>E-classroom Module</h2>
             <p class="lead">
-              This page displays the major menus in e-classroom in grid view that allows the teacher to perform a tone of activities swiftly.
-              These activities include adding and editing the student diary, uploading of lesson plans and materials, cbc assessments and exam management. 
+              This page displays the major menus in e-classroom in grid view that allows the teacher to perform school activities effectively.
+              These activities include: <br> <br>
+              <b>1. </b>Adding and editing the <b> student diary for Academics and Extras</b> <br>
+              <b>2. </b>Uploading of <b>lesson plans and lesson materials </b><br>
+              <b>3. </b>Cbc assessments including formative, summative and social behaviour assessments. <br>
+              <b>4. </b><b> Exam management on 8.4.4/IGCSE </b > which includes recording and editing of exams results. <br>
+              <b>5. </b>Adding and editing of <b>students project</b> to the system including uplaoding related photos.
+              
             </p>
             <hr>
             <div class="code-preview">
@@ -60,39 +73,33 @@
             <hr>
           </article>
         </div>
-
-
       </div>
-    </div>
-  </main>
-  <!-- /.main-content -->
+    </main><!-- /.main-content -->
 
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row gap-y align-items-center">
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row gap-y align-items-center">
 
-        <div class="col-md-9">
-          <div class="nav justify-content-center justify-content-md-start">
-            <a class="nav-link" href="http://hr-guide.co.ke/">Home</a>
-            <a class="nav-link" href="#">Call us</a>
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Contact</a>
+          <div class="col-md-3 text-center text-md-right offset-xl-9">
+            <a href="https://smartshule.com/">©Smartshule. All Rights Reserved.</a>
           </div>
         </div>
-
-        <div class="col-md-3 text-center text-md-right">
-          <a href="http://thetheme.io/">© Keypad Systems</a>
-        </div>
       </div>
-    </div>
-  </footer><!-- /.footer -->
+    </footer><!-- /.footer -->
 
 
-  <!-- Scripts -->
-  <script src="../assets/js/page.min.js"></script>
-  <script src="../assets/js/script.js"></script>
-</body>
+    <!-- Scripts -->
+    <script src="../assets/js/page.min.js"></script>
+    <script src="../assets/js/script.js"></script>
+
+    <style>
+        .SOCIALS a{
+             padding:3px;
+        }
+    </style>
+
+  </body>
 
 </html>

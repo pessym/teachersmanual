@@ -15,8 +15,7 @@
     <link href="../assets/css/style.css" rel="stylesheet">
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
-    <link rel="icon" href="../assets/img/favicon.png">
+    <link rel="icon" href="../assets/img/amold.ico">
 </head>
 
 <body>
@@ -68,25 +67,9 @@
 
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row gap-y align-items-center">
+    <?php include '../inc/footer.php'?>
 
-                <div class="col-md-9">
-                    <div class="nav justify-content-center justify-content-md-start">
-                        <a class="nav-link" href="http://hr-guide.co.ke/">Home</a>
-                        <a class="nav-link" href="#">Talk to one of us</a>
-                        <a class="nav-link" href="#">About</a>
-                        <a class="nav-link" href="#">Contact</a>
-                    </div>
-                </div>
-
-                <div class="col-md-3 text-center text-md-right">
-                    <a href="http://thetheme.io/">© Keypad Systems</a>
-                </div>
-            </div>
-        </div>
-    </footer><!-- /.footer -->
+    <!-- /.footer -->
 
 
     <!-- Scripts -->
