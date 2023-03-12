@@ -4,7 +4,6 @@
     height:10px;
    }
    a.nav-link{
-<<<<<<< HEAD
     height:40px;
     padding-left: 10px;
    }
@@ -14,16 +13,6 @@
    .nav-link span, .nav-link i{
     font-size:17px;
    }
-=======
-    height: 40px;
-    padding-bottom:40px;
-   }
-   a.nav-link span{
-    margin-left:10px;
-   }
-
-  
->>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
    ul li div{
     height:100%;
     padding:0px;
@@ -34,13 +23,9 @@
         padding-top: 0px;
     }
     .nav-sidebar-hero li:hover{
-<<<<<<< HEAD
         background-color:grey;
         color:greenyellow;
         border-radius: 10px;
-=======
-        background-color:#8A8695;
->>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
         color:white;
         border-radius: 10px;
         display:block;
@@ -50,13 +35,8 @@
         color:white;
     }
     .dropdown, .dropdown span , .dropdown a {
-<<<<<<< HEAD
         background-color:grey;
         color:white;
-=======
-        background-color:#8A8695;
-        color:whitesmoke;
->>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
         border-radius: 10px;
         display:block;
         padding:10px;
@@ -64,32 +44,19 @@
     }
     ul 
      .current, .current span, .current i, .current li div a {
-<<<<<<< HEAD
         background-color:grey;
         padding:0px;
         padding-right:5px;
         color:greenyellow;
         border-radius: 10px;
         font-weight:bolder;
-=======
-        padding-right:10px;
-        color:greenyellow;
->>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
         display:block;
         height:60px;
       
     }
-<<<<<<< HEAD
     .current span, .current i{
         height:20px;
         padding-left:10px;
-=======
-
-    .current span{
-        padding-right:10px;
-        padding-top:-10px;
-        font-weight:bolder;
->>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
     }
 
     .nav-sidebar .nav-item>.nav-link.active {
@@ -110,23 +77,7 @@
     .nav-sidebar-hero .nav-item:hover .nav-link {
         color: whitesmoke;   
     }
-<<<<<<< HEAD
    
-=======
-    ul li a.currently span, ul li a.currently i {
-        padding:0px;
-        padding-right:5px;
-        color:palevioletred;
-        border-radius: 10px;
-        display:block;
-        height:20px;
-        font-weight:700;
-    }
-    ul li a.currently:hover{
-        color:greenyellow;
-    }
-
->>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
 
 </style>
 <?php

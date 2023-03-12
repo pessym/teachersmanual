@@ -22,11 +22,7 @@
         padding-top: 0px;
     }
     .nav-sidebar-hero li:hover{
-<<<<<<< HEAD
         background-color:grey;
-=======
-        background-color:#8A8695;
->>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
         color:greenyellow;
         border-radius: 10px;
         display:block;
@@ -36,13 +32,8 @@
         color:white;
     }
     .dropdown, .dropdown span , .dropdown a {
-<<<<<<< HEAD
         background-color:grey;
         color:white;
-=======
-        background-color:#8A8695;
-        color:greenyellow;
->>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
         border-radius: 10px;
         display:block;
         padding:8px;
@@ -51,7 +42,6 @@
 
     ul 
      .current, .current span, .current i, .current li div a {
-<<<<<<< HEAD
         background-color:grey;
         padding:10px;
         padding-right:5px;
@@ -59,16 +49,6 @@
         border-radius: 10px;
         font-weight:bolder;
         display:block;
-=======
-        padding:0px;
-        padding-right:5px;
-        color:palevioletred;
-        border-radius: 10px;
-        display:block;
-        height:60px;
-        font-weight:700;
-      
->>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
     }
     .current span, .current i{
         height:20px;
