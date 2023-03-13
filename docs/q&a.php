@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   
-<!-- Mirrored from thetheme.io/thedocs/docs/kb-contents.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jan 2023 10:31:09 GMT -->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,12 +14,7 @@
     <link href="../assets/css/style.css" rel="stylesheet">
 
     <!-- Favicons -->
-<<<<<<< HEAD
     <link rel="icon" href="../assets/img/amold.ico">
-=======
-    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
-    <link rel="icon" href="../assets/img/amold.ico"> 
->>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
   </head>
 
   <body>
@@ -138,15 +132,6 @@
     <!-- Footer -->
     <?php include '../inc/footer.php'?>
 
-<<<<<<< HEAD
-=======
-          <div class="col-md-3 text-center text-md-right offset-xl-9">
-            <a href="https://smartshule.com/">©Smartshule. All Rights Reserved.</a>
-          </div>
-        </div>
-      </div>
-    </footer>
->>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
     <!-- /.footer -->
 
 
@@ -163,5 +148,4 @@
 
   </body>
 
-<!-- Mirrored from thetheme.io/thedocs/docs/kb-contents.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jan 2023 10:31:09 GMT -->
 </html>

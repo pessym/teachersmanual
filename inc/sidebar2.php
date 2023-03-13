@@ -112,17 +112,8 @@
                     <a class="nav-link <?php if (preg_match('/^(messages)$/i', $to_match )) echo "current"; ?>" href="../docs/messages.php">Messages<i class="fa fa-address-book"></i></a>
                 </li>
 
-<<<<<<< HEAD
                 <li class="nav-item <?php if (preg_match('/^(selfappraisal)$/i', $to_match )) echo "current"; ?>">
                     <a class="nav-link <?php if (preg_match('/^(selfappraisal)$/i', $to_match )) echo "current"; ?>" href="../docs/selfappraisal.php">Self Appraisal <i class="fa fa-check"></i></a>
-=======
-                <li class="nav-item">
-                    <a class="nav-link <?php if (preg_match('/^(messages)$/i', $to_match )) echo "current"; ?>" href="../docs/messages.php">Messages<i class="nav-angle"></i></a>
-                    </li>
-
-                <li class="nav-item">
-                    <a class="nav-link <?php if (preg_match('/^(selfappraisal)$/i', $to_match )) echo "current"; ?>" href="../docs/selfappraisal.php">Self Appraisal <i class="nav-angle"></i></a>
->>>>>>> 6560eb2ba5658cce21e23c6219c5746251573647
                 </li>
               </ul>
             </aside>
